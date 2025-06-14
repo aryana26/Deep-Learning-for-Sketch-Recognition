@@ -1,18 +1,18 @@
-# ✍️ QuickDraw Sketch Recognition: Comparative Deep Learning Study
+# QuickDraw Sketch Recognition: Comparative Deep Learning Study
 
 This project presents a thorough **comparative and ablation study** on the task of **sketch classification** using the [Google QuickDraw dataset](https://quickdraw.withgoogle.com/data). We explore multiple modeling techniques using **stroke-sequence data**, **image-based inputs**, and a **hybrid multi-modal fusion model**. Each approach is evaluated for accuracy and parameter efficiency.
 
-> ✅ Final deliverable includes a **real-time sketch inference system** using webcam strokes & image capture: `air_draw_final.py`
+> Final deliverable includes a **real-time sketch inference system** using webcam strokes & image capture: `air_draw_final.py`
 
 ---
 
-## ✏️ What is Stroke Data?
+## What is Stroke Data?
 
 In QuickDraw, each sketch is stored as a series of vectorized strokes (sequences of x-y coordinates and pen states). This temporal format is ideal for **sequence modeling** using **LSTM**, **ConvLSTM**, or **Transformers**.
 
-🎞️ Example of stroke input (GIF):
+Example of stroke input (GIF):
 
-![Stroke Animation]stroke_drawing.gif)
+![Stroke Animation](stroke_drawing.gif)
 
 ---
 
